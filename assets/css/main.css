@@ -3454,7 +3454,7 @@ input, select, textarea {
 			content: '';
 			display: block;
 			display: none;
-			height: 100%;
+			height: 10%;
 			left: 0;
 			position: fixed;
 			top: 0;
@@ -3474,7 +3474,7 @@ input, select, textarea {
 		-webkit-overflow-scrolling: touch;
 		background: #323638;
 		color: #ffffff;
-		height: 10%;
+		height: 100%;
 		max-width: 80%;
 		overflow-y: auto;
 		padding: 3em 2em;
