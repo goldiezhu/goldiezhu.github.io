@@ -2887,27 +2887,27 @@ input, select, textarea {
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #202224;
+				color:  #ffffff;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
-				color: #323638 !important;
+				color: #e1e4e6 !important;
 			}
 
 			.wrapper.style1 :-moz-placeholder {
-				color: #323638 !important;
+				color: #e1e4e6 !important;
 			}
 
 			.wrapper.style1 ::-moz-placeholder {
-				color: #323638 !important;
+				color: #e1e4e6 !important;
 			}
 
 			.wrapper.style1 :-ms-input-placeholder {
-				color: #323638 !important;
+				color: #e1e4e6 !important;
 			}
 
 			.wrapper.style1 .formerize-placeholder {
-				color: #323638 !important;
+				color: #e1e4e6 !important;
 			}
 
 			.wrapper.style1 .icon.major {
@@ -2981,7 +2981,7 @@ input, select, textarea {
 
 		.wrapper.style3 {
 			background-color: #505393;
-			color: #d3d4e4;
+			color: #ffffff;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
@@ -3013,7 +3013,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style3 header.major p {
-				color: #d3d4e4;
+				color: c;
 			}
 
 			.wrapper.style3 label {
