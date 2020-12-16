@@ -3998,23 +3998,3 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
-
-/* read more button */
-a {
-	color: #babdc2
-}
-a:visited {
-	color: #babdc2
-}
-a.morelink {
-	text-decoration:none;
-	outline: none;
-}
-.morecontent span {
-	display: none;
-}
-.comment {
-	width: 400px;
-	background-color: none;
-	margin: 10px;
-}
