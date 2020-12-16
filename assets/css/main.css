@@ -4001,10 +4001,10 @@ input, select, textarea {
 
 /* read more button */
 a {
-	color: #0254EB
+	color: #babdc2
 }
 a:visited {
-	color: #0254EB
+	color: #babdc2
 }
 a.morelink {
 	text-decoration:none;
@@ -4015,6 +4015,6 @@ a.morelink {
 }
 .comment {
 	width: 400px;
-	background-color: #f0f0f0;
+	background-color: none;
 	margin: 10px;
 }
