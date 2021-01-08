@@ -2404,6 +2404,7 @@ input, select, textarea {
     display:none;
     height:100%;
     position:fixed;
+    horizontal-align: middle;
     text-align:center;
     top:0;
     width:100%;
@@ -2435,7 +2436,7 @@ input, select, textarea {
     display: inline-block;
     font-family: arial;
     font-weight: bold;
-    position: center;
+    position: absolute;
     top: -20px;
     right: -20px;
     font-size: 25px;
