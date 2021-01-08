@@ -71,6 +71,16 @@
 				enter:		function() { $header.addClass('alt'); },
 				leave:		function() { $header.removeClass('alt'); }
 			});
-
 		}
+	$window.on('load', function() {
+		 $(".trigger_popup_fricc").click(function(){
+ 	      $('.hover_bkgr_fricc').show();
+	    });
+	    $('.hover_bkgr_fricc').click(function(){
+	        $('.hover_bkgr_fricc').hide();
+	    });
+	    $('.popupCloseButton').click(function(){
+	        $('.hover_bkgr_fricc').hide();
+    });
+	});
 })(jQuery);
