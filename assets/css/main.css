@@ -2435,7 +2435,7 @@ input, select, textarea {
     display: inline-block;
     font-family: arial;
     font-weight: bold;
-    position: absolute;
+    position: center;
     top: -20px;
     right: -20px;
     font-size: 25px;
