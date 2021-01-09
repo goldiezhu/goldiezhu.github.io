@@ -4007,7 +4007,7 @@ input, select, textarea {
 	  z-index: 99; /* Make sure it does not overlap */
 	  border: none; /* Remove borders */
 	  outline: none; /* Remove outline */
-	  background-color: red; /* Set a background color */
+	  background-color: #D3DBE6; /* Set a background color */
 	  color: white; /* Text color */
 	  cursor: pointer; /* Add a mouse pointer on hover */
 	  padding: 15px; /* Some padding */
@@ -4016,5 +4016,5 @@ input, select, textarea {
 	}
 
 	#myBtn:hover {
-	  background-color: #555; /* Add a dark-grey background on hover */
+	  background-color: B0BDCE; /* Add a dark-grey background on hover */
 	}
