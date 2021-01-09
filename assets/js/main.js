@@ -73,7 +73,7 @@
 			});
 		}
 		$window.scroll(function() {
-		    var height = $(window).scrollTop();
+		    var height = $window.scrollTop();
 		    if (height > 100) {
 			$('#back2Top').fadeIn();
 		    } else {
