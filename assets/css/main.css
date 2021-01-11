@@ -4026,6 +4026,27 @@ input, select, textarea {
 	}
 /*toc*/
 #sectiontoc a{
+	$menuWidth: 14em;
+	$menuPaddingLeft: 3em;
+
+	* {
+	  box-sizing: border-box;
+	}
+
+	body {
+	  width: 100vw;
+	  height: 100vh;
+	  overflow: auto;
+	}
+
+	body {
+	  padding: 2em 2em 2em $menuWidth+$menuPaddingLeft;
+	  font-size: 16px;
+	  line-height: 1.6;
+
+	  font-family: 'Roboto', sans-serif;
+	}
+
 	.toc {
 	  position: fixed;
 	  left: $menuPaddingLeft;
@@ -4068,5 +4089,47 @@ input, select, textarea {
 	  path {
 	    transition: all 0.3s ease;
 	  }
+	}
+
+	.contents {
+	  padding: 1em;
+	  max-width: 800px;
+	  font-size: 1.2em;
+	  font-family: 'Frank Ruhl Libre', sans-serif;
+
+	  img {
+	    max-width: 100%;
+	  }
+
+	  .code-block {
+			white-space: pre;
+			overflow: auto;
+			max-width: 100%;
+
+			code {
+	      display: block;
+				background-color: #f9f9f9;
+				padding: 10px;
+			}
+		}
+
+		.code-inline {
+			background-color: #f9f9f9;
+			padding: 4px;
+		}
+
+	  h2,
+	  h3 {
+	    padding-top: 1em;
+	  }
+	}
+
+
+	@media screen and (max-width: 1200px) {
+
+	  body {
+	    font-size: 14px;
+	  }
+
 	}
 }
