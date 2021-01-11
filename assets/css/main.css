@@ -4026,6 +4026,28 @@ input, select, textarea {
 	}
 /*toc*/
 
+#sectiontoc a{
+	$menuWidth: 14em;
+	$menuPaddingLeft: 3em;
+
+	* {
+	  box-sizing: border-box;
+	}
+
+	body {
+	  width: 100vw;
+	  height: 100vh;
+	  overflow: auto;
+	}
+
+	body {
+	  padding: 2em 2em 2em $menuWidth+$menuPaddingLeft;
+	  font-size: 16px;
+	  line-height: 1.6;
+
+	  font-family: 'Roboto', sans-serif;
+	}
+
 .toc {
 	  position: fixed;
 	  left: $menuPaddingLeft;
@@ -4069,30 +4091,7 @@ input, select, textarea {
 	    transition: all 0.3s ease;
 	  }
 	}
-
-#sectiontoc a{
-	$menuWidth: 14em;
-	$menuPaddingLeft: 3em;
-
-	* {
-	  box-sizing: border-box;
-	}
-
-	body {
-	  width: 100vw;
-	  height: 100vh;
-	  overflow: auto;
-	}
-
-	body {
-	  padding: 2em 2em 2em $menuWidth+$menuPaddingLeft;
-	  font-size: 16px;
-	  line-height: 1.6;
-
-	  font-family: 'Roboto', sans-serif;
-	}
-
-
+	
 	.contents {
 	  padding: 1em;
 	  max-width: 800px;
