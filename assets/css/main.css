@@ -4053,7 +4053,7 @@ input, select, textarea {
 }
 
 #tableofContents:hover {
-  background: #985f56;
+  background: #5286eb;
 }
 
 #tableOfContents h2 a {
@@ -4065,7 +4065,7 @@ input, select, textarea {
 }
 
 #tableOfContents h2 a:hover {
-    background: #985f56; 
+    background: #5286eb; 
 }
 
 #tableOfContents a {
@@ -4078,7 +4078,7 @@ input, select, textarea {
 }
 
 #tableOfContents a:hover {
-    background: #333;
+    background: #5286eb;
 }
 
 .sectionsWrapper {
