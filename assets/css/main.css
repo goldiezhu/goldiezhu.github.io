@@ -4028,8 +4028,8 @@ input, select, textarea {
 /* toc */
 	#toc {
 	  position: fixed;
-	  right: 0;
-	  top: 0;
+	  right: 100;
+	  top: 100;
 	  background-color:#FFF;
 	}
 	#toc #full { display: none; }
