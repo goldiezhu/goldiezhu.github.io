@@ -4077,9 +4077,9 @@ input, select, textarea {
     display: block;
 }
 
-#tableOfContents a:hover {
+/*#tableOfContents a:hover {
     background: #5286eb;
-}
+}*/
 
 .sectionsWrapper {
     padding-left: 40px;
