@@ -4024,3 +4024,15 @@ input, select, textarea {
 	    background-color: #DDF;
 	    color: #000;
 	}
+
+/* toc */
+	#toc {
+	  position: fixed;
+	  right: 0;
+	  top: 0;
+	  background-color:#FFF;
+	}
+	#toc #full { display: none; }
+	#toc:hover #full{
+	  display: block;
+	}
