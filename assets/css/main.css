@@ -4029,7 +4029,7 @@ input, select, textarea {
 
 #tableOfContents {
     width: 320px;
-    color: #fff !important;
+    color: #fff !important; /*white*/
     background: #222;
     float: left;
     position: fixed;
@@ -4048,7 +4048,7 @@ input, select, textarea {
     margin: 0 !important;
     line-height: 26px;
     z-index: 10;
-    background: #0d2e6e;
+    background: #0d2e6e; 
     position: relative;
 }
 
@@ -4064,10 +4064,10 @@ input, select, textarea {
     display: block;
 }
 
-#tableOfContents h2 a:hover {
+/*#tableOfContents h2 a:hover {
     background: #5286eb; 
 }
-
+*/
 #tableOfContents a {
     color: #fff;
     text-decoration: none;
@@ -4093,7 +4093,7 @@ input, select, textarea {
 #tableOfContents dl {
     margin: 0;
     overflow: hidden;
-    background: #465373;
+    background: #465373; /*toc content color*/
     padding: 0 0 20px 0;
     width: 280px;
     z-index: 10;
