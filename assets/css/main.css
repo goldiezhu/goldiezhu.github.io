@@ -4052,9 +4052,9 @@ input, select, textarea {
     position: relative;
 }
 
-/*#tableofContents:hover {
+#tableofContents:hover {
   background: #5286eb;
-}*/
+}
 
 #tableOfContents h2 a {
     
@@ -4064,10 +4064,10 @@ input, select, textarea {
     display: block;
 }
 
-/*#tableOfContents h2 a:hover {
+#tableOfContents h2 a:hover {
     background: #5286eb; 
 }
-*/
+
 #tableOfContents a {
     color: #fff;
     text-decoration: none;
@@ -4077,9 +4077,9 @@ input, select, textarea {
     display: block;
 }
 
-/*#tableOfContents a:hover {
+#tableOfContents a:hover {
     background: #5286eb;
-}*/
+}
 
 .sectionsWrapper {
     padding-left: 40px;
