@@ -73,6 +73,7 @@
 				leave:		function() { $header.removeClass('alt'); }
 			});
 		}
+	//back to top button
 		$window.scroll(function() {
 		    var height = $window.scrollTop();
 		    if (height > 100) {
