@@ -4028,7 +4028,7 @@ input, select, textarea {
 /* -- Table of Contents -- */
 
 #tableOfContents {
-    width: 320px;
+    width: 300px;
     color: #fff !important;
     background: #222;
     float: left;
@@ -4052,9 +4052,9 @@ input, select, textarea {
     position: relative;
 }
 
-#tableofContents:hover {
+/*#tableofContents:hover {
   background: #5286eb;
-}
+}*/
 
 #tableOfContents h2 a {
     
