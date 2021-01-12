@@ -4034,7 +4034,7 @@ input, select, textarea {
     float: left;
     position: fixed;
     bottom: 0;
-    left: calc(25% - 180px);
+    left: calc(25% - 200px);
     z-index: 11;
     font-size: 13px;
     font-weight: normal;
