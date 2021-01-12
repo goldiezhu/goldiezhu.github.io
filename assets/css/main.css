@@ -4034,7 +4034,7 @@ input, select, textarea {
     float: left;
     position: fixed;
     bottom: 0;
-    left: calc(25% - 160px);
+    left: calc(25% - 200px);
     z-index: 11;
     font-size: 13px;
     font-weight: normal;
@@ -4048,7 +4048,7 @@ input, select, textarea {
     margin: 0 !important;
     line-height: 26px;
     z-index: 10;
-    background: #EC6060;
+    background: #0d2e6e;
     position: relative;
 }
 
