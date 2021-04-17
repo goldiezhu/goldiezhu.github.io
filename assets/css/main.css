@@ -2135,11 +2135,11 @@ input, select, textarea {
 		.image.half {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 20%;
+			width: 3%;
 		}
 
 			.image.fit img {
-				width: 20%;
+				width: 3%;
 			}
 
 /* List */
