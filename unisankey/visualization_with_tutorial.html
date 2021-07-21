@@ -1,0 +1,102 @@
+<html>
+    <title>UniSankey - Comparative Sankey Diagrams</title>
+    <head>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&amp;subset=latin,vietnamese,latin-ext,cyrillic,greek,cyrillic-ext,greek-ext" rel="stylesheet" type="text/css">
+        <script src="js_to_php.js"></script>
+        <script src="interactive.js"></script>
+        <script src="unisankey.js"></script>
+        <script src="hidden_sankey.js"></script>
+        <script src="create_sankeys.js"></script>
+        <script src="data_filtering.js"></script>
+        <script src="tutorial.js"></script>
+    </head>
+    <body>
+        <div id = "shadow">
+        </div>
+
+        <div id="survey-body">
+            <div id="tutorial-text" class="tutorial">
+                <div id="tutorial-text-container">
+
+                </div>
+                
+                <div id="tut-button-container">
+                    <div id="tut-back-button" class='button-div'>BACK</div>
+                    <div id="tut-next-button" class='button-div'>NEXT</div>
+                </div>
+            </div>
+            <div id="tutorial-text-under" class="tutorial"></div>
+            <div id="drag-container"></div>
+            
+            <div id="sankey-container">
+                <canvas id="sankey-hover" width = '1800' height = '700'></canvas>
+                <canvas id="sankey-canvas" class="sankey" width = '1800' height='700'></canvas>
+                <canvas id="sankey-canvas2" class="sankey" width = '1800' height='700'></canvas>
+                <canvas id="sankey-canvas3" class="sankey" width = '1800' height='700'></canvas>
+                <canvas id="sankey-canvas4" class="sankey" width = '1800' height='700'></canvas>
+
+                <canvas id="sankey-canvas5" class="sankey" width = '1800' height='700'></canvas>
+
+                <canvas id="sankey-canvas6" class="sankey" width = '1800' height='700'></canvas>
+
+                <canvas id="sankey-editor" class="sankey" width = '1800' height='700'></canvas>
+                <div id="hover-div"></div>
+                <div id="click-div">
+                    <div class = 'click_section'><input id='click_label' style='background-color: #000000; color: #000000' type='text' value=''></div>
+                    <div class = 'click_section'><input id='click_colour' style='background-color: #000000; color: #000000' type='color' value='#000000'></div>
+                    <div class = 'click_section' id = 'click_filter' style='background-color: #000000; color: #000000'></div>
+                    <div class = 'click_section' id = 'click_hide' style='background-color:#000000; color: #000000'>Hide</div>
+                </div>
+            </div>
+            <div id = "autogenerate-explanation">Select the characteristics you want to view above. Select the characteristic criteria you want to filter projects by below.</div>
+
+            <div id="shortcut-panel">
+                <div id = 'select-all' class = 'button-div'>
+                    Include All Characteristics
+                </div>
+                <div id= 'deselect-all' class = 'button-div'>
+                    Exclude All Characteristics
+                </div>
+            </div>
+            <div class ="filter-details">
+                <div id = "autogenerate-details">
+                    <!-- <div id = "autogenerate-button" class = "ungenerated">Generate Filter Options</div> -->
+
+                    <div id="autogenerate-characteristics">
+                        
+                        <!-- list characteristics here -->
+                        <div id = "generated-characteristics">
+                        </div>
+
+                        <div id = "generate-filters-button" class = "ungenerated">Generate Filters</div>
+
+                        <div id = "generate-filter-text">
+                            <p>Generated <span id="generate-filter-number">0</span> filters:</p>
+                            <div id = "generate-filter-list"></div>
+                            <div id = "filter-error">Only the first 6 of the <span id='filter-error-count'></span> possible filters were generated.</div>
+
+                            <p>Press 'Show Changes' to see the filtered data.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="toggle-button" class='button-div'>Switch to Explore View</div>
+            
+            <div class = 'filter-details'>
+                <div id = "advanced-label">Show Advanced Options</div>
+                <div id = "advanced">
+                    <div id = 'all-filters'>
+
+                    </div>
+                    <div class="add-filter-set-button">
+                        + Add Filter Set
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

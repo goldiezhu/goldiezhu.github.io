@@ -1,0 +1,161 @@
+#sankey-container{
+    display:inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:100%;
+    text-align:left;
+}
+
+#question-container{
+    width: 80%;
+    max-width: 700px;
+    display: inline-block;
+    text-align: left;
+}
+
+#question{
+    font-size: 1.2em;
+}
+
+#choices{
+}
+
+#choices input{
+    margin-top: 20px;
+}
+
+#survey-section{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom:5px;
+}
+
+.button-div {
+    cursor: pointer;
+    user-select: none;
+    line-height: 40px;
+    background: #bfc9d8;
+    border-radius: 5px;
+    width: 80px;
+    display:inline-block;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+#survey-footer{
+    padding-top: 20px;
+    width:100%;
+    display: inline-block;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #ffffff;
+    cursor: default;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+
+#sankey-hover{
+    display: none;
+    pointer-events: none;
+}
+
+canvas{
+    position: absolute;
+    mix-blend-mode: multiply;
+    width:100%;
+}
+
+#hover-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    width: 200px;
+    background: white;
+    border-radius: 10px;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 0.8em;
+    box-shadow: 0 0 10px 0px #ffffff;
+}
+
+#click-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 0.8em;
+    box-shadow: 0 0 10px 0px #ffffff;
+    display:none;
+}
+
+.contribution-div {
+    width: 100%;
+    display: inline-block;
+    font-size: 1.1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.contribution-wrapper {
+    width: 100%;
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+.node-text {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.mid-text {
+    font-size: 0.9em;
+}
+
+.click_section{
+    width: 100%;
+    cursor: default;
+}
+
+#click_label {
+    width: 100%;
+    text-align: center;
+    border: none;
+    font-size: 1.2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#click_colour {
+    width: 100%;
+    border: none;
+}
+
+.click_filter_label{
+    font-size:1.1em;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+.click_filter_option input{
+    margin:3px;
+}
+
+#click_hide{
+    cursor: pointer;
+    padding-top:3px;
+    padding-bottom:3px;
+    font-size: 1.2em;
+}
