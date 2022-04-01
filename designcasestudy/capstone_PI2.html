@@ -54,7 +54,8 @@
 									<p style="padding: 0 0 1em 0;"><b>Languages:</b> PHP, JS, React, HTML, CSS, SQL <br> <b>Libraries:</b> react-beautiful-dnd, react-json-cable <br> <b> Databases:</b> PostgreSQL<br><br><b>Client:</b> Polaris Intelligence <br> <b>Supervisor:</b> Michael Gruniger <br><b>Team:</b> Goldie Zhu, Monty Gole, Ashley Yuan,<Br> Feiyang Fan, Thomas Cooney <br><br> <b>Timeline:</b> Sept. 2021 - Apr. 2022<br><b>Restrictions:</b> NDA</p> 
 								<hr />
 									<h4 style="text-align:center;">Problem Statement</h4>
-									<p><b>Problem:</b> Polaris Intelligence’s current application already has many functionalities but it lacks a simple and straightforward way for companies to be able to narrow down the scope of their analytics by selecting multiple variables. <br><br><b>Our Solution:</b> Our module will allow Polaris’ customers to select and view data for two variables in a cross table for an aggregated selection of postal codes. This module will efficiently query and display searches in a few seconds while also storing previous queries for easy retrieval and recurrent review. Our scalable solution does not include changing Polaris' existing services, softwares, and data.</p>
+									<p><b>Problem:</b> Polaris Intelligence’s current application already has many functionalities but it lacks a simple and straightforward way for companies to narrow down the scope of their analytics by selecting multiple variables. <br><br>
+									<b>Our Solution:</b> Our module will allow Polaris’ customers to select and view data for two variables in a cross table for an aggregated selection of postal codes. This module will efficiently query and display searches in a few seconds while also storing previous queries for easy retrieval and recurrent review. Our scalable solution does not include changing Polaris' existing services, softwares, and data.</p>
 								<hr />
 									<h4 style="text-align:center;">Stakeholders</h4>
 									<p>Stakeholders in Polaris include Consumer Packaged Goods (CPG) companies, municipalities, educational institutions, and other small businesses.</p>
@@ -129,7 +130,7 @@
 											</div>
 										</div>
 								<hr />
-									<h4 style="text-align:center;" style="padding: 0 0 4em 0;">App Architecture</h4>
+									<h4 style="text-align:center;" style="padding: 0 0 4em 0;">Functions</h4>
 										<span class="image right"><img src="images/carplay1.png" alt="" "></span>
 										<h5>  <br> <br> <br> <br>Upload CSV</h5>
 										<p style="padding: 0 0 8em 0;">Enter destination using the virtual keyboard to see <br>and choose parking locations near your destination.</p>
@@ -145,6 +146,23 @@
 										<span class="image right"><img src="images/carplay4.png" alt="" "></span>
 										<h5><br> <br> <br> <br>View Past Crosstabs</h5>
 										<p style="padding: 0 0 6em 0;">Quick confirmation of vehicle, payment, parking time, <br>and other parking details.</p>
+								<hr />
+									<h4 style="text-align:center;">Example Result</h4>
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-12"><span class="image fit"><img src="images/app.PNG" alt="" /></span></div>
+										</div>
+									</div>
+									<p style="text-align:center;"><i>Example of a Crosstab</i></p>
+								<hr />
+									<h4 style="text-align:center;">Performance</h4>
+									<p>Using Apachebench, we tested the performance of our module with various amounts of concurrent requests to a maximum level of 40.</p>
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-12"><span class="image fit"><img src="images/app.PNG" alt="" /></span></div>
+										</div>
+									</div>
+									<p>Based on the “Time per request” results, the worst case performance for each request from 40 concurrent users is handled in 840ms. The best performance is for one concurrent user request handled in 21ms. As such, our design is proven to meet the concurrent load of forty users and the performance requirements of less than two seconds.</p>
 								<hr />
 									<ul class="actions fit">
 									<li><a href="https://www.figma.com/file/wy9yUiJ8QVR9INlcX5luBo/353-A3?node-id=0%3A1" class="button fit">Poster Version</a></li>
