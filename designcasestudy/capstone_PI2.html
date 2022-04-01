@@ -133,37 +133,37 @@
 									<h4 style="text-align:center;" style="padding: 0 0 4em 0;">Functions</h4>
 										<span class="image right"><img src="images/carplay1.png" alt="" "></span>
 										<h5>  <br> <br> <br> <br>Upload CSV</h5>
-										<p style="padding: 0 0 8em 0;">Enter destination using the virtual keyboard to see <br>and choose parking locations near your destination.</p>
+										<p style="padding: 0 0 8em 0;">The POST method is used to upload and store the user's CSV.</p>
 										
 										<span class="image right"><img src="images/carplay2.png" alt="" "></span>
 										<h5><br> <br> <br> <br>Drag and Drop Variables</h5>
-										<p style="padding: 0 0 8em 0;">Click profile button and see three recently used <br>parking locations.</p>
+										<p style="padding: 0 0 8em 0;">react-beautiful-dnd is used to allow users to drag and drop their selected variables.</p>
 										
 										<span class="image right"><img src="images/carplay3.png" alt="" "></span>
 										<h5><br> <br> <br> <br>View Crosstab</h5>
-										<p style="padding: 0 0 8em 0;">Navigate to parking location with familiar iOS maps <br>navigation.</p>
+										<p style="padding: 0 0 8em 0;">Crosstab is received from PostgreSQL and visualized.</p>
 										
 										<span class="image right"><img src="images/carplay4.png" alt="" "></span>
 										<h5><br> <br> <br> <br>View Past Crosstabs</h5>
-										<p style="padding: 0 0 6em 0;">Quick confirmation of vehicle, payment, parking time, <br>and other parking details.</p>
+										<p style="padding: 0 0 6em 0;">Previous queries are stored and easily accessible for reruns.</p>
 								<hr />
 									<h4 style="text-align:center;">Full Process</h4>
 									<p>The frontend uses HTML, Javascript, React, and CSS languages in php files. We used minimal HTML and CSS so that the Polaris team can easily integrate our frontend into the existing website. Javascript’s react-beautiful-dnd is used to create the drag and drop functionality for variable selection. POST is used to upload and store the selected user file. The final crosstab is visualized on the frontend using react-json-cable.
-									<br>The backend solution uses PostgreSQL and PHP. After the user submits the selected variables, the variables are sent to the backend. First, the algorithm  identifies the types of user selected variables and if the variable is a percentage, it calculates the variable count based on total count. Then, it creates a query statement corresponding to the variables and the types and queries the database. If the query is executed without errors and the resulting crosstab table is generated, the algorithm saves the result and stores the user selected variables to a table. After everything is generated and stored correctly, the generated crosstab table is sent to the frontend to show the user the desired crosstab table.</p>	
+									<br><br>The backend solution uses PostgreSQL and PHP. After the user submits the selected variables, the variables are sent to the backend. First, the algorithm  identifies the types of user selected variables and if the variable is a percentage, it calculates the variable count based on total count. Then, it creates a query statement corresponding to the variables and the types and queries the database. If the query is executed without errors and the resulting crosstab table is generated, the algorithm saves the result and stores the user selected variables to a table. After everything is generated and stored correctly, the generated crosstab table is sent to the frontend to show the user the desired crosstab table.</p>	
 								<hr />
 									<h4 style="text-align:center;">Example Result</h4>
 									<div class="box alt">
 										<div class="row gtr-50 gtr-uniform">
-											<div class="col-12"><span class="image fit"><img src="images/app.PNG" alt="" /></span></div>
+											<div class="col-12"><span class="image fit"><img src="capstone_PI2_images/pi_result.PNG" alt="example of module result" /></span></div>
 										</div>
 									</div>
 									<p style="text-align:center;"><i>Example of a Crosstab</i></p>
 								<hr />
 									<h4 style="text-align:center;">Performance</h4>
-									<p>Using Apachebench, we tested the performance of our module with various amounts of concurrent requests to a maximum level of 40.</p>
+									<p>Using Apachebench, we tested our module performance with various amounts of concurrent requests to a max level of 40.</p>
 									<div class="box alt">
 										<div class="row gtr-50 gtr-uniform">
-											<div class="col-12"><span class="image fit"><img src="images/app.PNG" alt="" /></span></div>
+											<div class="col-12"><span class="image fit"><img src="capstone_PI2_images/pi_performance.PNG" alt="module performance stats" /></span></div>
 										</div>
 									</div>
 									<p>Based on the “Time per request” results, the worst case performance for each request from 40 concurrent users is handled in 840ms. The best performance is for one concurrent user request handled in 21ms. As such, our design is proven to meet the concurrent load of forty users and the performance requirements of less than two seconds.</p>
